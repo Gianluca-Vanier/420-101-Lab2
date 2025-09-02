@@ -22,7 +22,7 @@ If not enough money was put in, the machine will still print a ticket.
 5. It does look different. The price displayed at the bottom of the ticket has changed.
 6. public class Student or public class LabClass.
 7. If it is written as class public TicketMachine, then the class will return an error.
-The error message i got was <identifier> expected. Although curretly I don't really understand
+The error message i got was "<identifier> expected". Although curretly I don't really understand
 what it means, hopefully in the future I will.
 10.
 Fields:
@@ -50,19 +50,70 @@ as the same line.
 18. It belongs to the class Student.
 19. It has two: title of type string and price of type double.
 20. Yes, the parameters need to be stored somewhere persistent.
-21. 
+
+21.
+ 
 public Pet(String petsName)
 {
     this.name = name;
 }
+
 22.
+
 public Date(String newDate)
 {
     date = newDate;
 }
+
 23.
 Headers: the name of methods is different (getBalance, getPrice).
 Bodies: the field that is being returned is different (balance, price).
 24. "How much money is in the ticket machine?"
 25. No it doesn't, because you are only changing the name of the method, not what to return.
+27. I get the error "not a statement.
+28. The method type is different. While the getPrice method's type is a getter,
+the printTicket method's type is a printer. Also getPrice has a return statement while printTicket does not.
+29. No they do not. That is because they don't need to return any value.
+
+31.
+
+/**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+    score = score + points;
+}
+
+32. Yes it is a mutator. It is changing the value of the field.
+
+33.
+
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
+{
+    price -= amount;
+}
+
+34.
+
+public void setAge (int currentAge)
+{
+    age = currentAge;
+}
+
+35.
+
+private boolean alive;
+
+public void setStatus (boolean vitalStatus)
+{
+    alive = vitalStatus;
+}
+
+
+
+
 
