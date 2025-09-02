@@ -44,3 +44,7 @@ private Server host - Server
 private boolean alive - alive
 private Person tutor - tutor
 private Game game - game
+15. Yes, the order it appears in is important.
+16. Again. it is important, because if not put, any other code put in after that line will not be considered
+as the same line.
+
