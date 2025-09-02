@@ -113,6 +113,8 @@ public void setStatus (boolean vitalStatus)
     alive = vitalStatus;
 }
 
+36. Even after inputing a price, the getPrice method still returns a value of 0.
+37. My cat has green eyes.
 
 
 
