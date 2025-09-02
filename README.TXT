@@ -121,6 +121,7 @@ public void setStatus (boolean vitalStatus)
 43. It prints the exact same thing as it used to. %d means to insert the next argument as an integer at that
 point. %n means to end the line at that point.
 44. The price of the tickets will be automatically set to 1000 and not to your choosing.
-45.
+46. The method needs no parameters because no input is required to empty the total.
+It is an accessor.
 
 
