@@ -117,6 +117,7 @@ public void setStatus (boolean vitalStatus)
 37. My cat has green eyes.
 39. When you call the method, it will print the word price and not the value of the field price.
 40. It will print out: # price cents.
+42. The output is different for the two because each object has its own value for the field price.
 
 
 
