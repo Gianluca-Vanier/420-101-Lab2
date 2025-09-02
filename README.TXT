@@ -47,4 +47,12 @@ private Game game - game
 15. Yes, the order it appears in is important.
 16. Again. it is important, because if not put, any other code put in after that line will not be considered
 as the same line.
+18. It belongs to the class Student.
+19. It has two: title of type string and price of type double.
+20. Yes, the parameters need to be stored somewhere persistent.
+21. 
+public Pet(String petsName)
+{
+    this.name = name;
+}
 
