@@ -120,3 +120,7 @@ public void setStatus (boolean vitalStatus)
 42. The output is different for the two because each object has its own value for the field price.
 43. It prints the exact same thing as it used to. %d means to insert the next argument as an integer at that
 point. %n means to end the line at that point.
+44. The price of the tickets will be automatically set to 1000 and not to your choosing.
+45.
+
+
