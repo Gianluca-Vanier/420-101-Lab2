@@ -82,6 +82,11 @@ public class TicketMachine
         System.out.println("The price of a ticket is " + price + " cents");
     }
     
+    public void empty()
+    {
+        total = 0;
+    }
+    
     /**
      * Print a ticket.
      * Update the total collected and
