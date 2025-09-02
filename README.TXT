@@ -24,3 +24,23 @@ If not enough money was put in, the machine will still print a ticket.
 7. If it is written as class public TicketMachine, then the class will return an error.
 The error message i got was <identifier> expected. Although curretly I don't really understand
 what it means, hopefully in the future I will.
+10.
+Fields:
+Price - private int price
+Balance - private int balance
+Total - private int total
+Constructor: TicketMachine
+Methods:
+getPrice
+getBalance
+insertMoney
+printTicket
+11. Constructors do not have any return type and a constructor's name must be identical to the class name.
+12. 
+private int count - int
+private Student representative - Student
+private Server host - Server
+13.
+private boolean alive - alive
+private Person tutor - tutor
+private Game game - game
