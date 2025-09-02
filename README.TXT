@@ -55,4 +55,14 @@ public Pet(String petsName)
 {
     this.name = name;
 }
+22.
+public Date(String newDate)
+{
+    date = newDate;
+}
+23.
+Headers: the name of methods is different (getBalance, getPrice).
+Bodies: the field that is being returned is different (balance, price).
+24. "How much money is in the ticket machine?"
+25. No it doesn't, because you are only changing the name of the method, not what to return.
 
