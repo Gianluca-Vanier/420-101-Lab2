@@ -115,6 +115,8 @@ public void setStatus (boolean vitalStatus)
 
 36. Even after inputing a price, the getPrice method still returns a value of 0.
 37. My cat has green eyes.
+39. When you call the method, it will print the word price and not the value of the field price.
+40. It will print out: # price cents.
 
 
 
